@@ -4,7 +4,9 @@ import json
 import logging
 import os, sys
 import random
-from sklearn.metrics import f1_score
+
+import seqeval.metrics
+from sklearn.metrics import f1_score,accuracy_score
 from time import strftime, localtime
 import numpy as np
 import torch
@@ -12,7 +14,7 @@ import torch.nn.functional as F
 from transformers.optimization import AdamW
 from transformers.models.bert.modeling_bert import BertModel
 from transformers import BertTokenizer
-from seqeval.metrics import classification_report, accuracy_score
+from seqeval.metrics import classification_report
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler, TensorDataset)
 from utils.data_utils import ATEPCProcessor, convert_examples_to_features
 from model.lcf_atepc import LCF_ATEPC
@@ -187,10 +189,17 @@ def main(config):
             apc_result = {'max_apc_test_acc': test_acc, 'max_apc_test_f1': test_f1}
 
         if eval_ATE:
-            report = classification_report(y_true, y_pred, digits=4)
+            # report = classification_report(y_true, y_pred, digits=4)
+            # print(report)
+            # print("y_true",y_true)
+            # print("*"*50)
+            # print("y_pred",y_pred)
+            ate_f1 = seqeval.metrics.f1_score(y_true, y_pred,average='weighted')
 
-            tmps = report.split()
-            ate_result = round(float(tmps[7]) * 100, 2)
+            # tmps = report.split()
+            # ate_result = round(float(tmps[7]) * 100, 2)
+            ate_result = round(float(ate_f1) * 100, 2)
+
         if eval_emotion:
             emotion_f1 = f1_score(torch.argmax(test_emotion_logits_all,-1).cpu(),test_emotions_all.cpu(), labels=[0, 1, 2], average='weighted')
             emotion_acc = accuracy_score(torch.argmax(test_emotion_logits_all,-1).cpu(),test_emotions_all.cpu(),)
