@@ -11,13 +11,16 @@ from time import strftime, localtime
 import numpy as np
 import torch
 import torch.nn.functional as F
-from transformers.optimization import AdamW
+try:
+    from transformers.optimization import AdamW
+except ImportError:
+    from torch.optim import AdamW
 from transformers.models.bert.modeling_bert import BertModel
 from transformers import BertTokenizer
 from seqeval.metrics import classification_report
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler, TensorDataset)
 from utils.data_utils import ATEPCProcessor, convert_examples_to_features
-from model.lcf_atepc import LCF_ATEPC
+from model.lcf_atepce import LCF_ATEPC
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -339,6 +342,7 @@ def parse_experiments(path):
         parser.add_argument("--train_batch_size", default=int(config['train_batch_size']), type=int,
                             help="Total batch size for training.")
         parser.add_argument("--dropout", default=float(config['dropout']), type=int)
+        parser.add_argument("--num_emotion_labels", default=int(config.get('num_emotion_labels', 3)), type=int)
         parser.add_argument("--max_seq_length", default=int(config['max_seq_length']), type=int)
         parser.add_argument("--eval_batch_size", default=32, type=int, help="Total batch size for eval.")
         parser.add_argument("--eval_steps", default=20, help="evaluate per steps")

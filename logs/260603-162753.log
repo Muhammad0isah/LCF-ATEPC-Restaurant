@@ -1,0 +1,41 @@
+log file: logs/260603-162753.log
+--------------------------------------------------------------------------------
+Config 1 (totally 1 configs)
+No.1 training process of 5
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/bert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://cas-bridge.xethub.hf.co/xet-bridge-us/621ffdc036468d709f174338/44172b48ce7a9d951000a9d76ae331b155df32c9fd4e93239a233d720f471725?Expires=1780507674&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzYyMWZmZGMwMzY0NjhkNzA5ZjE3NDMzOC80NDE3MmI0OGNlN2E5ZDk1MTAwMGE5ZDc2YWUzMzFiMTU1ZGYzMmM5ZmQ0ZTkzMjM5YTIzM2Q3MjBmNDcxNzI1KiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MDUwNzY3NH19fV19&Signature=MEUCIQC0kzvLym4o%7E2lRwwQzSHXpdEo0wVHOTLiOZz23rQiz6gIgUH%7E2pvZbu9Ipyi3pIkPbCzoq%7EW8oGM1zgy1tktoFUfI_&Key-Pair-Id=K1LYXO563TGWFU&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260603%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260603T162754Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=92c738c174ae2f5ce32a4e10b72c7c810853d9b9c5c2a4e2964a6641037ed4dc "HTTP/1.1 200 OK"
+>>> dataset: restaurant
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> use_unique_bert: True
+>>> use_bert_spc: False
+>>> local_context_focus: fusion
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> num_emotion_labels: 3
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> config_path: experiments.json
+>>> device: cpu
+>>> seed: 1
+>>> bert_model: bert-base-uncased
+>>> data_dir: atepc_datasets/restaurant
+***** Running training *****
+  Num examples = 3545
+  Batch size = 16
+  Num steps = 1105
+################################################################################
+Train 1 Epoch1
+################################################################################
