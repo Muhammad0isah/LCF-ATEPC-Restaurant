@@ -6,7 +6,7 @@ import os, sys
 import random
 
 import seqeval.metrics
-from sklearn.metrics import f1_score,accuracy_score
+from sklearn.metrics import f1_score, accuracy_score, precision_recall_fscore_support
 from time import strftime, localtime
 import numpy as np
 import torch
@@ -116,16 +116,67 @@ def main(config):
     eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.eval_batch_size)
 
     def evaluate(eval_ATE=True, eval_APC=True,eval_emotion=True):
+        def build_per_class_accuracy(y_true, y_pred, label_names):
+            rows = []
+            for label_id, label_name in label_names.items():
+                label_mask = y_true == label_id
+                support = int(label_mask.sum().item())
+                correct = int(((y_pred == label_id) & label_mask).sum().item())
+                accuracy = round((correct / support) * 100, 2) if support else 0.0
+                rows.append({
+                    'label': label_name,
+                    'support': support,
+                    'correct': correct,
+                    'accuracy': accuracy
+                })
+            return rows
+
+        def format_per_class_accuracy(rows):
+            return '; '.join(
+                f"{row['label']}: n={row['support']}, correct={row['correct']}, acc={row['accuracy']}%"
+                for row in rows
+            )
+
+        def build_token_metrics(y_true_seq, y_pred_seq, label_names):
+            true_flat = [label for sentence in y_true_seq for label in sentence]
+            pred_flat = [label for sentence in y_pred_seq for label in sentence]
+            precision, recall, f1, support = precision_recall_fscore_support(
+                true_flat,
+                pred_flat,
+                labels=label_names,
+                zero_division=0
+            )
+            rows = []
+            for i, label_name in enumerate(label_names):
+                rows.append({
+                    'label': label_name,
+                    'precision': round(float(precision[i]), 4),
+                    'recall': round(float(recall[i]), 4),
+                    'f1': round(float(f1[i]), 4),
+                    'support': int(support[i])
+                })
+            return rows
+
+        def format_token_metrics(rows):
+            return '; '.join(
+                f"{row['label']}: precision={row['precision']}, recall={row['recall']}, "
+                f"f1={row['f1']}, support={row['support']}"
+                for row in rows
+            )
+
         apc_result = {'max_apc_test_acc': 0, 'max_apc_test_f1': 0}
-        ate_result = 0
+        ate_result = {'max_ate_test_f1': 0, 'per_tag_metrics': [], 'per_tag_metrics_text': ''}
         emotion_result = {'max_emotion_test_acc': 0, 'max_emotion_test_f1': 0}
         y_true = []
         y_pred = []
-        n_test_correct, n_test_total = 0, 0
+        apc_test_correct, apc_test_total = 0, 0
+        emotion_test_correct, emotion_test_total = 0, 0
         test_apc_logits_all, test_polarities_all = None, None
         test_emotion_logits_all, test_emotions_all = None, None
         model.eval()
         label_map = {i: label for i, label in enumerate(label_list, 1)}
+        polarity_label_names = {0: 'Neutral', 1: 'Negative', 2: 'Positive'}
+        emotion_label_names = {0: 'Anger-merged', 1: 'Surprise', 2: 'Joy'}
         for input_ids_spc, input_mask, segment_ids, label_ids, polarities, valid_ids, l_mask,emotions in eval_dataloader:
             input_ids_spc = input_ids_spc.to(device)
             input_mask = input_mask.to(device)
@@ -141,8 +192,8 @@ def main(config):
                                                valid_ids=valid_ids, polarities=polarities, attention_mask_label=l_mask,emotions=emotions)
             if eval_APC:
                 polarities = model.get_batch_polarities(polarities)
-                n_test_correct += (torch.argmax(apc_logits, -1) == polarities).sum().item()
-                n_test_total += len(polarities)
+                apc_test_correct += (torch.argmax(apc_logits, -1) == polarities).sum().item()
+                apc_test_total += len(polarities)
                 if test_polarities_all is None:
                     test_polarities_all = polarities
                     test_apc_logits_all = apc_logits
@@ -152,8 +203,8 @@ def main(config):
 
             if eval_emotion:
                 emotions = model.get_batch_emotions(emotions)
-                n_test_correct += (torch.argmax(emotion_logits, -1) == emotions).sum().item()
-                n_test_total += len(emotions)
+                emotion_test_correct += (torch.argmax(emotion_logits, -1) == emotions).sum().item()
+                emotion_test_total += len(emotions)
 
                 if test_emotions_all is None:
                     test_emotions_all = emotions
@@ -184,12 +235,19 @@ def main(config):
                             temp_2.append(label_map.get(ate_logits[i][j], 'O'))
 
         if eval_APC:
-            test_acc = n_test_correct / n_test_total
-            test_f1 = f1_score(torch.argmax(test_apc_logits_all, -1).cpu(), test_polarities_all.cpu(),
-                                   labels=[0, 1, 2], average='weighted')
+            apc_preds = torch.argmax(test_apc_logits_all, -1).cpu()
+            apc_true = test_polarities_all.cpu()
+            test_acc = apc_test_correct / apc_test_total
+            test_f1 = f1_score(apc_true, apc_preds, labels=[0, 1, 2], average='macro')
+            apc_per_class = build_per_class_accuracy(apc_true, apc_preds, polarity_label_names)
             test_acc = round(test_acc * 100, 2)
             test_f1 = round(test_f1 * 100, 2)
-            apc_result = {'max_apc_test_acc': test_acc, 'max_apc_test_f1': test_f1}
+            apc_result = {
+                'max_apc_test_acc': test_acc,
+                'max_apc_test_f1': test_f1,
+                'per_class_accuracy': apc_per_class,
+                'per_class_accuracy_text': format_per_class_accuracy(apc_per_class)
+            }
 
         if eval_ATE:
             # report = classification_report(y_true, y_pred, digits=4)
@@ -197,18 +255,31 @@ def main(config):
             # print("y_true",y_true)
             # print("*"*50)
             # print("y_pred",y_pred)
-            ate_f1 = seqeval.metrics.f1_score(y_true, y_pred,average='weighted')
+            ate_f1 = seqeval.metrics.f1_score(y_true, y_pred, average='macro')
+            ate_per_tag = build_token_metrics(y_true, y_pred, ['B-ASP', 'I-ASP', 'O'])
 
             # tmps = report.split()
             # ate_result = round(float(tmps[7]) * 100, 2)
-            ate_result = round(float(ate_f1) * 100, 2)
+            ate_result = {
+                'max_ate_test_f1': round(float(ate_f1) * 100, 2),
+                'per_tag_metrics': ate_per_tag,
+                'per_tag_metrics_text': format_token_metrics(ate_per_tag)
+            }
 
         if eval_emotion:
-            emotion_f1 = f1_score(torch.argmax(test_emotion_logits_all,-1).cpu(),test_emotions_all.cpu(), labels=[0, 1, 2], average='weighted')
-            emotion_acc = accuracy_score(torch.argmax(test_emotion_logits_all,-1).cpu(),test_emotions_all.cpu(),)
+            emotion_preds = torch.argmax(test_emotion_logits_all, -1).cpu()
+            emotion_true = test_emotions_all.cpu()
+            emotion_f1 = f1_score(emotion_true, emotion_preds, labels=[0, 1, 2], average='macro')
+            emotion_acc = accuracy_score(emotion_true, emotion_preds)
+            emotion_per_class = build_per_class_accuracy(emotion_true, emotion_preds, emotion_label_names)
             emotion_acc = round(float(emotion_acc) * 100, 2)
             emotion_f1 = round(float(emotion_f1) * 100, 2)
-            emotion_result = {'max_emotion_test_acc': emotion_acc, 'max_emotion_test_f1': emotion_f1}
+            emotion_result = {
+                'max_emotion_test_acc': emotion_acc,
+                'max_emotion_test_f1': emotion_f1,
+                'per_class_accuracy': emotion_per_class,
+                'per_class_accuracy_text': format_per_class_accuracy(emotion_per_class)
+            }
         return apc_result, ate_result,emotion_result
     def save_model(path):
         # Save a trained model and the associated configuration,
@@ -247,6 +318,9 @@ def main(config):
         max_ate_test_f1 = 0
         max_emotion_test_acc = 0
         max_emotion_test_f1 = 0
+        best_apc_per_class_accuracy_text = ''
+        best_emotion_per_class_accuracy_text = ''
+        best_ate_per_tag_metrics_text = ''
         global_step = 0
         for epoch in range(int(args.num_train_epochs)):
             logger.info('#' * 80)
@@ -288,18 +362,21 @@ def main(config):
 
                         if apc_result['max_apc_test_acc'] > max_apc_test_acc:
                             max_apc_test_acc = apc_result['max_apc_test_acc']
+                            best_apc_per_class_accuracy_text = apc_result.get('per_class_accuracy_text', '')
                         if apc_result['max_apc_test_f1'] > max_apc_test_f1:
                             max_apc_test_f1 = apc_result['max_apc_test_f1']
-                        if ate_result > max_ate_test_f1:
-                            max_ate_test_f1 = ate_result
+                        if ate_result['max_ate_test_f1'] > max_ate_test_f1:
+                            max_ate_test_f1 = ate_result['max_ate_test_f1']
+                            best_ate_per_tag_metrics_text = ate_result.get('per_tag_metrics_text', '')
                         if emotion_result['max_emotion_test_acc'] > max_emotion_test_acc:
                             max_emotion_test_acc = emotion_result['max_emotion_test_acc']
+                            best_emotion_per_class_accuracy_text = emotion_result.get('per_class_accuracy_text', '')
                         if emotion_result['max_emotion_test_f1'] > max_emotion_test_f1:
                             max_emotion_test_f1 = emotion_result['max_emotion_test_f1']
 
                         current_apc_test_acc = apc_result['max_apc_test_acc']
                         current_apc_test_f1 = apc_result['max_apc_test_f1']
-                        current_ate_test_f1 = round(ate_result, 2)
+                        current_ate_test_f1 = round(ate_result['max_ate_test_f1'], 2)
                         current_emotion_test_acc = emotion_result['max_emotion_test_acc']
                         current_emotion_test_f1 = emotion_result['max_emotion_test_f1']
 
@@ -315,8 +392,17 @@ def main(config):
                         logger.info(
                             f'Emotion_test_acc: {current_emotion_test_acc}(max: {max_emotion_test_acc})'
                             f' Emotion_test_f1: {current_emotion_test_f1}(max: {max_emotion_test_f1})')
+                        if 'per_class_accuracy_text' in apc_result:
+                            logger.info(f"APC_per_class_accuracy: {apc_result['per_class_accuracy_text']}")
+                        if 'per_class_accuracy_text' in emotion_result:
+                            logger.info(f"Emotion_per_class_accuracy: {emotion_result['per_class_accuracy_text']}")
+                        if ate_result.get('per_tag_metrics_text'):
+                            logger.info(f"ATE_per_tag_metrics: {ate_result['per_tag_metrics_text']}")
                         logger.info('*' * 80)
 
+        logger.info(f'BEST_APC_per_class_accuracy: {best_apc_per_class_accuracy_text}')
+        logger.info(f'BEST_Emotion_per_class_accuracy: {best_emotion_per_class_accuracy_text}')
+        logger.info(f'BEST_ATE_per_tag_metrics: {best_ate_per_tag_metrics_text}')
         return [max_apc_test_acc, max_apc_test_f1, max_ate_test_f1,max_emotion_test_acc,max_emotion_test_f1]
 
     return train()
