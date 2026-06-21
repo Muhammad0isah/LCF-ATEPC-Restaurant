@@ -37,3 +37,1213 @@ HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/model.s
 ################################################################################
 Train 1 Epoch1
 ################################################################################
+################################################################################
+Train 1 Epoch2
+################################################################################
+################################################################################
+Train 1 Epoch3
+################################################################################
+################################################################################
+Train 1 Epoch4
+################################################################################
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.13(max: 81.13)  APC_test_f1: 74.55(max: 74.55)
+ATE_test_f1: 47.65(max:47.65)
+Emotion_test_acc: 89.85(max: 89.85) Emotion_test_f1: 71.36(max: 71.36)
+APC_per_class_accuracy: Neutral: n=235, correct=135, acc=57.45%; Negative: n=228, correct=179, acc=78.51%; Positive: n=719, correct=645, acc=89.71%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=297, acc=85.84%; Surprise: n=46, correct=10, acc=21.74%; Joy: n=790, correct=755, acc=95.57%
+ATE_per_tag_metrics: B-ASP: precision=0.9456, recall=0.9824, f1=0.9637, support=2904; I-ASP: precision=0.9391, recall=0.964, f1=0.9514, support=1168; O: precision=0.9968, recall=0.9891, f1=0.9929, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.44(max: 81.13)  APC_test_f1: 72.09(max: 74.55)
+ATE_test_f1: 47.86(max:47.86)
+Emotion_test_acc: 89.85(max: 89.85) Emotion_test_f1: 76.09(max: 76.09)
+APC_per_class_accuracy: Neutral: n=235, correct=148, acc=62.98%; Negative: n=228, correct=136, acc=59.65%; Positive: n=719, correct=655, acc=91.1%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=302, acc=87.28%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=742, acc=93.92%
+ATE_per_tag_metrics: B-ASP: precision=0.9535, recall=0.9807, f1=0.9669, support=2904; I-ASP: precision=0.9422, recall=0.9623, f1=0.9521, support=1168; O: precision=0.9963, recall=0.9905, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.8(max: 81.13)  APC_test_f1: 74.62(max: 74.62)
+ATE_test_f1: 47.96(max:47.96)
+Emotion_test_acc: 90.27(max: 90.27) Emotion_test_f1: 76.39(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=145, acc=61.7%; Negative: n=228, correct=175, acc=76.75%; Positive: n=719, correct=635, acc=88.32%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=309, acc=89.31%; Surprise: n=46, correct=17, acc=36.96%; Joy: n=790, correct=741, acc=93.8%
+ATE_per_tag_metrics: B-ASP: precision=0.9551, recall=0.9811, f1=0.9679, support=2904; I-ASP: precision=0.9437, recall=0.9623, f1=0.9529, support=1168; O: precision=0.9964, recall=0.9909, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.22(max: 81.22)  APC_test_f1: 74.0(max: 74.62)
+ATE_test_f1: 47.82(max:47.96)
+Emotion_test_acc: 89.34(max: 90.27) Emotion_test_f1: 75.51(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=146, acc=62.13%; Negative: n=228, correct=146, acc=64.04%; Positive: n=719, correct=668, acc=92.91%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=298, acc=86.13%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=740, acc=93.67%
+ATE_per_tag_metrics: B-ASP: precision=0.9567, recall=0.9745, f1=0.9655, support=2904; I-ASP: precision=0.9503, recall=0.9495, f1=0.9499, support=1168; O: precision=0.9949, recall=0.992, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.2(max: 81.22)  APC_test_f1: 73.9(max: 74.62)
+ATE_test_f1: 47.88(max:47.96)
+Emotion_test_acc: 88.75(max: 90.27) Emotion_test_f1: 75.04(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=168, acc=71.49%; Negative: n=228, correct=145, acc=63.6%; Positive: n=719, correct=635, acc=88.32%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=318, acc=91.91%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=715, acc=90.51%
+ATE_per_tag_metrics: B-ASP: precision=0.9565, recall=0.9769, f1=0.9666, support=2904; I-ASP: precision=0.9419, recall=0.958, f1=0.9499, support=1168; O: precision=0.9956, recall=0.9911, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.23(max: 82.23)  APC_test_f1: 75.58(max: 75.58)
+ATE_test_f1: 47.94(max:47.96)
+Emotion_test_acc: 89.68(max: 90.27) Emotion_test_f1: 75.4(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=185, acc=81.14%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=741, acc=93.8%
+ATE_per_tag_metrics: B-ASP: precision=0.9523, recall=0.9828, f1=0.9673, support=2904; I-ASP: precision=0.9419, recall=0.9709, f1=0.9562, support=1168; O: precision=0.9968, recall=0.9899, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.13(max: 82.23)  APC_test_f1: 74.74(max: 75.58)
+ATE_test_f1: 95.81(max:95.81)
+Emotion_test_acc: 89.09(max: 90.27) Emotion_test_f1: 74.79(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=138, acc=58.72%; Negative: n=228, correct=177, acc=77.63%; Positive: n=719, correct=644, acc=89.57%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=733, acc=92.78%
+ATE_per_tag_metrics: B-ASP: precision=0.95, recall=0.9811, f1=0.9653, support=2904; I-ASP: precision=0.93, recall=0.9786, f1=0.9537, support=1168; O: precision=0.9972, recall=0.9892, f1=0.9932, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.37(max: 82.23)  APC_test_f1: 74.19(max: 75.58)
+ATE_test_f1: 95.83(max:95.83)
+Emotion_test_acc: 85.96(max: 90.27) Emotion_test_f1: 68.6(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=167, acc=71.06%; Negative: n=228, correct=145, acc=63.6%; Positive: n=719, correct=638, acc=88.73%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=244, acc=70.52%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=752, acc=95.19%
+ATE_per_tag_metrics: B-ASP: precision=0.9599, recall=0.9718, f1=0.9658, support=2904; I-ASP: precision=0.9494, recall=0.964, f1=0.9567, support=1168; O: precision=0.995, recall=0.9922, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.46(max: 82.23)  APC_test_f1: 74.5(max: 75.58)
+ATE_test_f1: 96.06(max:96.06)
+Emotion_test_acc: 90.27(max: 90.27) Emotion_test_f1: 77.37(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=157, acc=66.81%; Negative: n=228, correct=162, acc=71.05%; Positive: n=719, correct=632, acc=87.9%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=291, acc=84.1%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=757, acc=95.82%
+ATE_per_tag_metrics: B-ASP: precision=0.961, recall=0.9762, f1=0.9686, support=2904; I-ASP: precision=0.945, recall=0.9709, f1=0.9578, support=1168; O: precision=0.9958, recall=0.9917, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.73(max: 82.23)  APC_test_f1: 74.57(max: 75.58)
+ATE_test_f1: 47.99(max:96.06)
+Emotion_test_acc: 90.27(max: 90.27) Emotion_test_f1: 77.32(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=150, acc=65.79%; Positive: n=719, correct=683, acc=94.99%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=315, acc=91.04%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=734, acc=92.91%
+ATE_per_tag_metrics: B-ASP: precision=0.9582, recall=0.9776, f1=0.9678, support=2904; I-ASP: precision=0.9511, recall=0.9666, f1=0.9588, support=1168; O: precision=0.9958, recall=0.9915, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.54(max: 82.23)  APC_test_f1: 73.71(max: 75.58)
+ATE_test_f1: 47.77(max:96.06)
+Emotion_test_acc: 88.07(max: 90.27) Emotion_test_f1: 73.6(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=141, acc=60.0%; Negative: n=228, correct=155, acc=67.98%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=326, acc=94.22%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=697, acc=88.23%
+ATE_per_tag_metrics: B-ASP: precision=0.9529, recall=0.9821, f1=0.9673, support=2904; I-ASP: precision=0.955, recall=0.9632, f1=0.9591, support=1168; O: precision=0.9962, recall=0.9909, f1=0.9935, support=19387
+********************************************************************************
+################################################################################
+Train 1 Epoch5
+################################################################################
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.9(max: 82.23)  APC_test_f1: 75.38(max: 75.58)
+ATE_test_f1: 48.08(max:96.06)
+Emotion_test_acc: 90.27(max: 90.27) Emotion_test_f1: 76.87(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=125, acc=53.19%; Negative: n=228, correct=196, acc=85.96%; Positive: n=719, correct=647, acc=89.99%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=303, acc=87.57%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=745, acc=94.3%
+ATE_per_tag_metrics: B-ASP: precision=0.9569, recall=0.978, f1=0.9673, support=2904; I-ASP: precision=0.9599, recall=0.964, f1=0.962, support=1168; O: precision=0.9958, recall=0.992, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.47(max: 82.23)  APC_test_f1: 75.39(max: 75.58)
+ATE_test_f1: 95.89(max:96.06)
+Emotion_test_acc: 89.59(max: 90.27) Emotion_test_f1: 76.18(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=156, acc=66.38%; Negative: n=228, correct=161, acc=70.61%; Positive: n=719, correct=646, acc=89.85%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=290, acc=83.82%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=751, acc=95.06%
+ATE_per_tag_metrics: B-ASP: precision=0.9644, recall=0.9694, f1=0.9669, support=2904; I-ASP: precision=0.9623, recall=0.9615, f1=0.9619, support=1168; O: precision=0.9942, recall=0.9934, f1=0.9938, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 82.23)  APC_test_f1: 75.61(max: 75.61)
+ATE_test_f1: 47.96(max:96.06)
+Emotion_test_acc: 89.93(max: 90.27) Emotion_test_f1: 75.1(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=152, acc=64.68%; Negative: n=228, correct=157, acc=68.86%; Positive: n=719, correct=661, acc=91.93%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=300, acc=86.71%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=745, acc=94.3%
+ATE_per_tag_metrics: B-ASP: precision=0.9539, recall=0.9838, f1=0.9686, support=2904; I-ASP: precision=0.9487, recall=0.9649, f1=0.9567, support=1168; O: precision=0.9967, recall=0.9908, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.23(max: 82.23)  APC_test_f1: 75.33(max: 75.61)
+ATE_test_f1: 47.8(max:96.06)
+Emotion_test_acc: 90.27(max: 90.27) Emotion_test_f1: 76.56(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=150, acc=63.83%; Negative: n=228, correct=149, acc=65.35%; Positive: n=719, correct=673, acc=93.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=297, acc=85.84%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=752, acc=95.19%
+ATE_per_tag_metrics: B-ASP: precision=0.9474, recall=0.9862, f1=0.9664, support=2904; I-ASP: precision=0.9455, recall=0.9649, f1=0.9551, support=1168; O: precision=0.9971, recall=0.9895, f1=0.9933, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 83.25(max: 83.25)  APC_test_f1: 77.18(max: 77.18)
+ATE_test_f1: 47.72(max:96.06)
+Emotion_test_acc: 88.16(max: 90.27) Emotion_test_f1: 71.86(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=170, acc=72.34%; Negative: n=228, correct=152, acc=66.67%; Positive: n=719, correct=662, acc=92.07%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=314, acc=90.75%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=709, acc=89.75%
+ATE_per_tag_metrics: B-ASP: precision=0.9533, recall=0.978, f1=0.9655, support=2904; I-ASP: precision=0.9616, recall=0.9426, f1=0.952, support=1168; O: precision=0.9951, recall=0.9922, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.4(max: 83.25)  APC_test_f1: 76.05(max: 77.18)
+ATE_test_f1: 47.86(max:96.06)
+Emotion_test_acc: 88.58(max: 90.27) Emotion_test_f1: 74.31(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=147, acc=62.55%; Negative: n=228, correct=165, acc=72.37%; Positive: n=719, correct=662, acc=92.07%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=271, acc=78.32%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=757, acc=95.82%
+ATE_per_tag_metrics: B-ASP: precision=0.951, recall=0.9821, f1=0.9663, support=2904; I-ASP: precision=0.9446, recall=0.9632, f1=0.9538, support=1168; O: precision=0.9967, recall=0.9904, f1=0.9935, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 83.25)  APC_test_f1: 75.61(max: 77.18)
+ATE_test_f1: 95.62(max:96.06)
+Emotion_test_acc: 89.51(max: 90.27) Emotion_test_f1: 75.86(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=168, acc=71.49%; Negative: n=228, correct=146, acc=64.04%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=317, acc=91.62%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=722, acc=91.39%
+ATE_per_tag_metrics: B-ASP: precision=0.9454, recall=0.9838, f1=0.9642, support=2904; I-ASP: precision=0.9509, recall=0.9623, f1=0.9566, support=1168; O: precision=0.9968, recall=0.99, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.46(max: 83.25)  APC_test_f1: 71.31(max: 77.18)
+ATE_test_f1: 95.26(max:96.06)
+Emotion_test_acc: 89.34(max: 90.27) Emotion_test_f1: 75.81(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=93, acc=39.57%; Negative: n=228, correct=168, acc=73.68%; Positive: n=719, correct=690, acc=95.97%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=275, acc=79.48%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=762, acc=96.46%
+ATE_per_tag_metrics: B-ASP: precision=0.9667, recall=0.9587, f1=0.9627, support=2904; I-ASP: precision=0.9631, recall=0.9375, f1=0.9501, support=1168; O: precision=0.9915, recall=0.9943, f1=0.9929, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.3(max: 83.25)  APC_test_f1: 74.3(max: 77.18)
+ATE_test_f1: 94.66(max:96.06)
+Emotion_test_acc: 90.52(max: 90.52) Emotion_test_f1: 76.71(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=140, acc=59.57%; Negative: n=228, correct=152, acc=66.67%; Positive: n=719, correct=669, acc=93.05%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=300, acc=86.71%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=751, acc=95.06%
+ATE_per_tag_metrics: B-ASP: precision=0.9315, recall=0.9883, f1=0.9591, support=2904; I-ASP: precision=0.9334, recall=0.9726, f1=0.9526, support=1168; O: precision=0.9979, recall=0.9862, f1=0.992, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.29(max: 83.25)  APC_test_f1: 73.0(max: 77.18)
+ATE_test_f1: 95.86(max:96.06)
+Emotion_test_acc: 90.69(max: 90.69) Emotion_test_f1: 77.12(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=150, acc=63.83%; Negative: n=228, correct=140, acc=61.4%; Positive: n=719, correct=659, acc=91.66%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=324, acc=93.64%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=730, acc=92.41%
+ATE_per_tag_metrics: B-ASP: precision=0.9571, recall=0.9756, f1=0.9662, support=2904; I-ASP: precision=0.9628, recall=0.9538, f1=0.9583, support=1168; O: precision=0.9951, recall=0.9928, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 1 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 77.16(max: 83.25)  APC_test_f1: 71.49(max: 77.18)
+ATE_test_f1: 95.54(max:96.06)
+Emotion_test_acc: 90.19(max: 90.69) Emotion_test_f1: 76.85(max: 77.37)
+APC_per_class_accuracy: Neutral: n=235, correct=130, acc=55.32%; Negative: n=228, correct=201, acc=88.16%; Positive: n=719, correct=581, acc=80.81%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=326, acc=94.22%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=721, acc=91.27%
+ATE_per_tag_metrics: B-ASP: precision=0.9452, recall=0.9866, f1=0.9655, support=2904; I-ASP: precision=0.9597, recall=0.9572, f1=0.9584, support=1168; O: precision=0.997, recall=0.9907, f1=0.9938, support=19387
+********************************************************************************
+BEST_APC_per_class_accuracy: Neutral: n=235, correct=170, acc=72.34%; Negative: n=228, correct=152, acc=66.67%; Positive: n=719, correct=662, acc=92.07%
+BEST_Emotion_per_class_accuracy: Anger-merged: n=346, correct=324, acc=93.64%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=730, acc=92.41%
+BEST_ATE_per_tag_metrics: B-ASP: precision=0.961, recall=0.9762, f1=0.9686, support=2904; I-ASP: precision=0.945, recall=0.9709, f1=0.9578, support=1168; O: precision=0.9958, recall=0.9917, f1=0.9937, support=19387
+max_ate_test_f1:96.06 max_apc_test_acc: 83.25	max_apc_test_f1: 77.18 	max_emotion_test_acc: 90.69	max_emotion_test_f1: 77.37
+No.2 training process of 5
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+>>> dataset: restaurant
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> use_unique_bert: True
+>>> use_bert_spc: False
+>>> local_context_focus: fusion
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> num_emotion_labels: 3
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> config_path: experiments.json
+>>> device: cpu
+>>> seed: 2
+>>> bert_model: bert-base-uncased
+>>> data_dir: atepc_datasets/restaurant
+***** Running training *****
+  Num examples = 3545
+  Batch size = 16
+  Num steps = 1105
+################################################################################
+Train 2 Epoch1
+################################################################################
+################################################################################
+Train 2 Epoch2
+################################################################################
+################################################################################
+Train 2 Epoch3
+################################################################################
+################################################################################
+Train 2 Epoch4
+################################################################################
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 78.76(max: 78.76)  APC_test_f1: 71.86(max: 71.86)
+ATE_test_f1: 47.71(max:47.71)
+Emotion_test_acc: 89.93(max: 89.93) Emotion_test_f1: 75.04(max: 75.04)
+APC_per_class_accuracy: Neutral: n=235, correct=116, acc=49.36%; Negative: n=228, correct=198, acc=86.84%; Positive: n=719, correct=617, acc=85.81%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=299, acc=86.42%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=748, acc=94.68%
+ATE_per_tag_metrics: B-ASP: precision=0.9487, recall=0.9814, f1=0.9648, support=2904; I-ASP: precision=0.9334, recall=0.9606, f1=0.9468, support=1168; O: precision=0.9965, recall=0.9894, f1=0.9929, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.44(max: 79.44)  APC_test_f1: 71.63(max: 71.86)
+ATE_test_f1: 47.74(max:47.74)
+Emotion_test_acc: 88.92(max: 89.93) Emotion_test_f1: 72.92(max: 75.04)
+APC_per_class_accuracy: Neutral: n=235, correct=153, acc=65.11%; Negative: n=228, correct=119, acc=52.19%; Positive: n=719, correct=667, acc=92.77%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=294, acc=84.97%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=741, acc=93.8%
+ATE_per_tag_metrics: B-ASP: precision=0.9418, recall=0.9866, f1=0.9637, support=2904; I-ASP: precision=0.9219, recall=0.9803, f1=0.9502, support=1168; O: precision=0.9982, recall=0.9871, f1=0.9926, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.37(max: 80.37)  APC_test_f1: 73.51(max: 73.51)
+ATE_test_f1: 47.62(max:47.74)
+Emotion_test_acc: 89.85(max: 89.93) Emotion_test_f1: 74.72(max: 75.04)
+APC_per_class_accuracy: Neutral: n=235, correct=127, acc=54.04%; Negative: n=228, correct=182, acc=79.82%; Positive: n=719, correct=641, acc=89.15%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=304, acc=87.86%; Surprise: n=46, correct=15, acc=32.61%; Joy: n=790, correct=743, acc=94.05%
+ATE_per_tag_metrics: B-ASP: precision=0.9384, recall=0.9866, f1=0.9619, support=2904; I-ASP: precision=0.9211, recall=0.9795, f1=0.9494, support=1168; O: precision=0.9982, recall=0.9865, f1=0.9923, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.96(max: 80.96)  APC_test_f1: 74.04(max: 74.04)
+ATE_test_f1: 47.71(max:47.74)
+Emotion_test_acc: 89.59(max: 89.93) Emotion_test_f1: 74.68(max: 75.04)
+APC_per_class_accuracy: Neutral: n=235, correct=139, acc=59.15%; Negative: n=228, correct=162, acc=71.05%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=297, acc=85.84%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=746, acc=94.43%
+ATE_per_tag_metrics: B-ASP: precision=0.9548, recall=0.9811, f1=0.9677, support=2904; I-ASP: precision=0.9462, recall=0.9495, f1=0.9479, support=1168; O: precision=0.996, recall=0.9914, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.39(max: 81.39)  APC_test_f1: 74.14(max: 74.14)
+ATE_test_f1: 47.61(max:47.74)
+Emotion_test_acc: 90.1(max: 90.1) Emotion_test_f1: 75.97(max: 75.97)
+APC_per_class_accuracy: Neutral: n=235, correct=157, acc=66.81%; Negative: n=228, correct=135, acc=59.21%; Positive: n=719, correct=670, acc=93.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=308, acc=89.02%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=739, acc=93.54%
+ATE_per_tag_metrics: B-ASP: precision=0.9484, recall=0.9811, f1=0.9645, support=2904; I-ASP: precision=0.9428, recall=0.9452, f1=0.944, support=1168; O: precision=0.9958, recall=0.9903, f1=0.993, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 81.39)  APC_test_f1: 73.58(max: 74.14)
+ATE_test_f1: 47.83(max:47.83)
+Emotion_test_acc: 89.51(max: 90.1) Emotion_test_f1: 74.48(max: 75.97)
+APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=162, acc=71.05%; Positive: n=719, correct=661, acc=91.93%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=288, acc=83.24%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=750, acc=94.94%
+ATE_per_tag_metrics: B-ASP: precision=0.9601, recall=0.9776, f1=0.9688, support=2904; I-ASP: precision=0.9427, recall=0.9443, f1=0.9435, support=1168; O: precision=0.9948, recall=0.9917, f1=0.9933, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.1(max: 81.39)  APC_test_f1: 72.86(max: 74.14)
+ATE_test_f1: 47.93(max:47.93)
+Emotion_test_acc: 90.1(max: 90.1) Emotion_test_f1: 76.1(max: 76.1)
+APC_per_class_accuracy: Neutral: n=235, correct=139, acc=59.15%; Negative: n=228, correct=180, acc=78.95%; Positive: n=719, correct=616, acc=85.67%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=745, acc=94.3%
+ATE_per_tag_metrics: B-ASP: precision=0.951, recall=0.9821, f1=0.9663, support=2904; I-ASP: precision=0.9272, recall=0.97, f1=0.9481, support=1168; O: precision=0.9972, recall=0.9893, f1=0.9933, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 81.39)  APC_test_f1: 73.15(max: 74.14)
+ATE_test_f1: 48.0(max:48.0)
+Emotion_test_acc: 88.32(max: 90.1) Emotion_test_f1: 72.65(max: 76.1)
+APC_per_class_accuracy: Neutral: n=235, correct=137, acc=58.3%; Negative: n=228, correct=145, acc=63.6%; Positive: n=719, correct=674, acc=93.74%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=278, acc=80.35%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=746, acc=94.43%
+ATE_per_tag_metrics: B-ASP: precision=0.9569, recall=0.9783, f1=0.9675, support=2904; I-ASP: precision=0.9267, recall=0.9735, f1=0.9495, support=1168; O: precision=0.9969, recall=0.9903, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.98(max: 81.98)  APC_test_f1: 75.17(max: 75.17)
+ATE_test_f1: 47.85(max:48.0)
+Emotion_test_acc: 90.61(max: 90.61) Emotion_test_f1: 77.96(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=143, acc=60.85%; Negative: n=228, correct=163, acc=71.49%; Positive: n=719, correct=663, acc=92.21%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=307, acc=88.73%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=746, acc=94.43%
+ATE_per_tag_metrics: B-ASP: precision=0.9526, recall=0.9828, f1=0.9675, support=2904; I-ASP: precision=0.9472, recall=0.9529, f1=0.9501, support=1168; O: precision=0.9963, recall=0.991, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.32(max: 82.32)  APC_test_f1: 74.95(max: 75.17)
+ATE_test_f1: 48.13(max:48.13)
+Emotion_test_acc: 90.27(max: 90.61) Emotion_test_f1: 77.58(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=151, acc=66.23%; Positive: n=719, correct=689, acc=95.83%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=315, acc=91.04%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=733, acc=92.78%
+ATE_per_tag_metrics: B-ASP: precision=0.9646, recall=0.9752, f1=0.9699, support=2904; I-ASP: precision=0.937, recall=0.9675, f1=0.952, support=1168; O: precision=0.9959, recall=0.9921, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.44(max: 82.32)  APC_test_f1: 73.14(max: 75.17)
+ATE_test_f1: 47.71(max:48.13)
+Emotion_test_acc: 86.63(max: 90.61) Emotion_test_f1: 72.31(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=184, acc=80.7%; Positive: n=719, correct=622, acc=86.51%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=326, acc=94.22%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=679, acc=85.95%
+ATE_per_tag_metrics: B-ASP: precision=0.9512, recall=0.9797, f1=0.9652, support=2904; I-ASP: precision=0.9299, recall=0.9658, f1=0.9475, support=1168; O: precision=0.9968, recall=0.9897, f1=0.9932, support=19387
+********************************************************************************
+################################################################################
+Train 2 Epoch5
+################################################################################
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.22(max: 82.32)  APC_test_f1: 74.46(max: 75.17)
+ATE_test_f1: 47.56(max:48.13)
+Emotion_test_acc: 89.17(max: 90.61) Emotion_test_f1: 76.17(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=118, acc=50.21%; Negative: n=228, correct=202, acc=88.6%; Positive: n=719, correct=640, acc=89.01%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=281, acc=81.21%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=754, acc=95.44%
+ATE_per_tag_metrics: B-ASP: precision=0.9486, recall=0.9783, f1=0.9632, support=2904; I-ASP: precision=0.9601, recall=0.9486, f1=0.9543, support=1168; O: precision=0.9954, recall=0.9912, f1=0.9933, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.9(max: 82.32)  APC_test_f1: 74.82(max: 75.17)
+ATE_test_f1: 47.89(max:48.13)
+Emotion_test_acc: 88.24(max: 90.61) Emotion_test_f1: 74.35(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=122, acc=51.91%; Negative: n=228, correct=177, acc=77.63%; Positive: n=719, correct=669, acc=93.05%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=318, acc=91.91%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=707, acc=89.49%
+ATE_per_tag_metrics: B-ASP: precision=0.954, recall=0.9787, f1=0.9662, support=2904; I-ASP: precision=0.9523, recall=0.9563, f1=0.9543, support=1168; O: precision=0.9961, recall=0.9917, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.46(max: 82.32)  APC_test_f1: 74.46(max: 75.17)
+ATE_test_f1: 48.03(max:48.13)
+Emotion_test_acc: 89.17(max: 90.61) Emotion_test_f1: 74.82(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=153, acc=65.11%; Negative: n=228, correct=162, acc=71.05%; Positive: n=719, correct=636, acc=88.46%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=295, acc=85.26%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=740, acc=93.67%
+ATE_per_tag_metrics: B-ASP: precision=0.9592, recall=0.9787, f1=0.9688, support=2904; I-ASP: precision=0.9437, recall=0.9623, f1=0.9529, support=1168; O: precision=0.9962, recall=0.9917, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 82.32)  APC_test_f1: 72.96(max: 75.17)
+ATE_test_f1: 48.11(max:48.13)
+Emotion_test_acc: 88.83(max: 90.61) Emotion_test_f1: 73.72(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=138, acc=58.72%; Negative: n=228, correct=136, acc=59.65%; Positive: n=719, correct=682, acc=94.85%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=313, acc=90.46%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=718, acc=90.89%
+ATE_per_tag_metrics: B-ASP: precision=0.9592, recall=0.9793, f1=0.9692, support=2904; I-ASP: precision=0.9394, recall=0.9683, f1=0.9536, support=1168; O: precision=0.9967, recall=0.9915, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.37(max: 82.32)  APC_test_f1: 74.15(max: 75.17)
+ATE_test_f1: 47.72(max:48.13)
+Emotion_test_acc: 87.14(max: 90.61) Emotion_test_f1: 71.48(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=152, acc=64.68%; Negative: n=228, correct=159, acc=69.74%; Positive: n=719, correct=639, acc=88.87%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=303, acc=87.57%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=707, acc=89.49%
+ATE_per_tag_metrics: B-ASP: precision=0.9503, recall=0.9817, f1=0.9658, support=2904; I-ASP: precision=0.9505, recall=0.9538, f1=0.9521, support=1168; O: precision=0.9963, recall=0.9909, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.71(max: 82.32)  APC_test_f1: 73.84(max: 75.17)
+ATE_test_f1: 47.71(max:48.13)
+Emotion_test_acc: 88.75(max: 90.61) Emotion_test_f1: 73.51(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=135, acc=57.45%; Negative: n=228, correct=166, acc=72.81%; Positive: n=719, correct=653, acc=90.82%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=293, acc=84.68%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=737, acc=93.29%
+ATE_per_tag_metrics: B-ASP: precision=0.955, recall=0.9783, f1=0.9665, support=2904; I-ASP: precision=0.9518, recall=0.9478, f1=0.9498, support=1168; O: precision=0.9955, recall=0.9919, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.2(max: 82.32)  APC_test_f1: 74.71(max: 75.17)
+ATE_test_f1: 95.54(max:95.54)
+Emotion_test_acc: 89.85(max: 90.61) Emotion_test_f1: 75.85(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=154, acc=65.53%; Negative: n=228, correct=176, acc=77.19%; Positive: n=719, correct=618, acc=85.95%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=299, acc=86.42%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=743, acc=94.05%
+ATE_per_tag_metrics: B-ASP: precision=0.9446, recall=0.9859, f1=0.9648, support=2904; I-ASP: precision=0.9421, recall=0.9615, f1=0.9517, support=1168; O: precision=0.9975, recall=0.9897, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.96(max: 82.32)  APC_test_f1: 74.16(max: 75.17)
+ATE_test_f1: 47.92(max:95.54)
+Emotion_test_acc: 88.83(max: 90.61) Emotion_test_f1: 74.03(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=141, acc=60.0%; Negative: n=228, correct=157, acc=68.86%; Positive: n=719, correct=659, acc=91.66%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=285, acc=82.37%; Surprise: n=46, correct=22, acc=47.83%; Joy: n=790, correct=743, acc=94.05%
+ATE_per_tag_metrics: B-ASP: precision=0.9596, recall=0.9725, f1=0.966, support=2904; I-ASP: precision=0.945, recall=0.9555, f1=0.9502, support=1168; O: precision=0.9952, recall=0.9923, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.98(max: 82.32)  APC_test_f1: 75.72(max: 75.72)
+ATE_test_f1: 48.08(max:95.54)
+Emotion_test_acc: 89.59(max: 90.61) Emotion_test_f1: 77.13(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=141, acc=60.0%; Negative: n=228, correct=176, acc=77.19%; Positive: n=719, correct=652, acc=90.68%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=282, acc=81.5%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=758, acc=95.95%
+ATE_per_tag_metrics: B-ASP: precision=0.956, recall=0.98, f1=0.9679, support=2904; I-ASP: precision=0.9392, recall=0.9649, f1=0.9519, support=1168; O: precision=0.9967, recall=0.9911, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.54(max: 82.32)  APC_test_f1: 72.67(max: 75.72)
+ATE_test_f1: 47.96(max:95.54)
+Emotion_test_acc: 90.1(max: 90.61) Emotion_test_f1: 77.65(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=146, acc=64.04%; Positive: n=719, correct=675, acc=93.88%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=320, acc=92.49%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=725, acc=91.77%
+ATE_per_tag_metrics: B-ASP: precision=0.9538, recall=0.9817, f1=0.9676, support=2904; I-ASP: precision=0.9501, recall=0.9615, f1=0.9557, support=1168; O: precision=0.9966, recall=0.9912, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 2 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.2(max: 82.32)  APC_test_f1: 74.08(max: 75.72)
+ATE_test_f1: 96.26(max:96.26)
+Emotion_test_acc: 88.41(max: 90.61) Emotion_test_f1: 74.73(max: 77.96)
+APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=197, acc=86.4%; Positive: n=719, correct=618, acc=85.95%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=320, acc=92.49%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=705, acc=89.24%
+ATE_per_tag_metrics: B-ASP: precision=0.9585, recall=0.9783, f1=0.9683, support=2904; I-ASP: precision=0.9412, recall=0.9735, f1=0.9571, support=1168; O: precision=0.9965, recall=0.9913, f1=0.9939, support=19387
+********************************************************************************
+BEST_APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=151, acc=66.23%; Positive: n=719, correct=689, acc=95.83%
+BEST_Emotion_per_class_accuracy: Anger-merged: n=346, correct=307, acc=88.73%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=746, acc=94.43%
+BEST_ATE_per_tag_metrics: B-ASP: precision=0.9585, recall=0.9783, f1=0.9683, support=2904; I-ASP: precision=0.9412, recall=0.9735, f1=0.9571, support=1168; O: precision=0.9965, recall=0.9913, f1=0.9939, support=19387
+max_ate_test_f1:96.26 max_apc_test_acc: 83.25	max_apc_test_f1: 77.18 	max_emotion_test_acc: 90.69	max_emotion_test_f1: 77.96
+No.3 training process of 5
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+>>> dataset: restaurant
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> use_unique_bert: True
+>>> use_bert_spc: False
+>>> local_context_focus: fusion
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> num_emotion_labels: 3
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> config_path: experiments.json
+>>> device: cpu
+>>> seed: 3
+>>> bert_model: bert-base-uncased
+>>> data_dir: atepc_datasets/restaurant
+***** Running training *****
+  Num examples = 3545
+  Batch size = 16
+  Num steps = 1105
+################################################################################
+Train 3 Epoch1
+################################################################################
+################################################################################
+Train 3 Epoch2
+################################################################################
+################################################################################
+Train 3 Epoch3
+################################################################################
+################################################################################
+Train 3 Epoch4
+################################################################################
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.46(max: 80.46)  APC_test_f1: 74.82(max: 74.82)
+ATE_test_f1: 96.04(max:96.04)
+Emotion_test_acc: 89.76(max: 89.76) Emotion_test_f1: 72.46(max: 72.46)
+APC_per_class_accuracy: Neutral: n=235, correct=143, acc=60.85%; Negative: n=228, correct=193, acc=84.65%; Positive: n=719, correct=615, acc=85.54%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=311, acc=89.88%; Surprise: n=46, correct=11, acc=23.91%; Joy: n=790, correct=739, acc=93.54%
+ATE_per_tag_metrics: B-ASP: precision=0.9617, recall=0.9769, f1=0.9693, support=2904; I-ASP: precision=0.9443, recall=0.958, f1=0.9511, support=1168; O: precision=0.9955, recall=0.9923, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.95(max: 80.46)  APC_test_f1: 73.86(max: 74.82)
+ATE_test_f1: 96.51(max:96.51)
+Emotion_test_acc: 87.9(max: 89.76) Emotion_test_f1: 71.35(max: 72.46)
+APC_per_class_accuracy: Neutral: n=235, correct=160, acc=68.09%; Negative: n=228, correct=150, acc=65.79%; Positive: n=719, correct=635, acc=88.32%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=294, acc=84.97%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=726, acc=91.9%
+ATE_per_tag_metrics: B-ASP: precision=0.9631, recall=0.9797, f1=0.9713, support=2904; I-ASP: precision=0.9447, recall=0.9649, f1=0.9547, support=1168; O: precision=0.9962, recall=0.9924, f1=0.9943, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.53(max: 80.46)  APC_test_f1: 72.14(max: 74.82)
+ATE_test_f1: 96.3(max:96.51)
+Emotion_test_acc: 90.36(max: 90.36) Emotion_test_f1: 75.42(max: 75.42)
+APC_per_class_accuracy: Neutral: n=235, correct=109, acc=46.38%; Negative: n=228, correct=197, acc=86.4%; Positive: n=719, correct=634, acc=88.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=309, acc=89.31%; Surprise: n=46, correct=15, acc=32.61%; Joy: n=790, correct=744, acc=94.18%
+ATE_per_tag_metrics: B-ASP: precision=0.9606, recall=0.9814, f1=0.9709, support=2904; I-ASP: precision=0.9466, recall=0.9717, f1=0.959, support=1168; O: precision=0.9966, recall=0.9918, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.3(max: 81.3)  APC_test_f1: 74.26(max: 74.82)
+ATE_test_f1: 95.53(max:96.51)
+Emotion_test_acc: 89.0(max: 90.36) Emotion_test_f1: 73.49(max: 75.42)
+APC_per_class_accuracy: Neutral: n=235, correct=147, acc=62.55%; Negative: n=228, correct=149, acc=65.35%; Positive: n=719, correct=665, acc=92.49%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=735, acc=93.04%
+ATE_per_tag_metrics: B-ASP: precision=0.9514, recall=0.9838, f1=0.9673, support=2904; I-ASP: precision=0.9533, recall=0.9435, f1=0.9484, support=1168; O: precision=0.9964, recall=0.992, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.3(max: 81.3)  APC_test_f1: 74.88(max: 74.88)
+ATE_test_f1: 96.23(max:96.51)
+Emotion_test_acc: 89.34(max: 90.36) Emotion_test_f1: 74.09(max: 75.42)
+APC_per_class_accuracy: Neutral: n=235, correct=162, acc=68.94%; Negative: n=228, correct=150, acc=65.79%; Positive: n=719, correct=649, acc=90.26%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=312, acc=90.17%; Surprise: n=46, correct=17, acc=36.96%; Joy: n=790, correct=727, acc=92.03%
+ATE_per_tag_metrics: B-ASP: precision=0.9634, recall=0.9793, f1=0.9713, support=2904; I-ASP: precision=0.9424, recall=0.9666, f1=0.9544, support=1168; O: precision=0.9961, recall=0.9921, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.22(max: 81.3)  APC_test_f1: 75.02(max: 75.02)
+ATE_test_f1: 95.96(max:96.51)
+Emotion_test_acc: 88.32(max: 90.36) Emotion_test_f1: 72.13(max: 75.42)
+APC_per_class_accuracy: Neutral: n=235, correct=146, acc=62.13%; Negative: n=228, correct=173, acc=75.88%; Positive: n=719, correct=641, acc=89.15%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=269, acc=77.75%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=757, acc=95.82%
+ATE_per_tag_metrics: B-ASP: precision=0.9589, recall=0.98, f1=0.9693, support=2904; I-ASP: precision=0.9556, recall=0.9572, f1=0.9564, support=1168; O: precision=0.9957, recall=0.9923, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.46(max: 81.3)  APC_test_f1: 74.43(max: 75.02)
+ATE_test_f1: 95.69(max:96.51)
+Emotion_test_acc: 89.85(max: 90.36) Emotion_test_f1: 75.04(max: 75.42)
+APC_per_class_accuracy: Neutral: n=235, correct=147, acc=62.55%; Negative: n=228, correct=177, acc=77.63%; Positive: n=719, correct=627, acc=87.2%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=294, acc=84.97%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=749, acc=94.81%
+ATE_per_tag_metrics: B-ASP: precision=0.945, recall=0.9883, f1=0.9662, support=2904; I-ASP: precision=0.9188, recall=0.9786, f1=0.9478, support=1168; O: precision=0.998, recall=0.9873, f1=0.9926, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.2(max: 81.3)  APC_test_f1: 74.06(max: 75.02)
+ATE_test_f1: 96.03(max:96.51)
+Emotion_test_acc: 90.27(max: 90.36) Emotion_test_f1: 76.39(max: 76.39)
+APC_per_class_accuracy: Neutral: n=235, correct=158, acc=67.23%; Negative: n=228, correct=156, acc=68.42%; Positive: n=719, correct=634, acc=88.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=295, acc=85.26%; Surprise: n=46, correct=21, acc=45.65%; Joy: n=790, correct=751, acc=95.06%
+ATE_per_tag_metrics: B-ASP: precision=0.9595, recall=0.9787, f1=0.969, support=2904; I-ASP: precision=0.928, recall=0.9717, f1=0.9494, support=1168; O: precision=0.9966, recall=0.9908, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 81.3)  APC_test_f1: 73.89(max: 75.02)
+ATE_test_f1: 95.89(max:96.51)
+Emotion_test_acc: 91.12(max: 91.12) Emotion_test_f1: 78.53(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=154, acc=65.53%; Negative: n=228, correct=144, acc=63.16%; Positive: n=719, correct=658, acc=91.52%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=312, acc=90.17%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=746, acc=94.43%
+ATE_per_tag_metrics: B-ASP: precision=0.9592, recall=0.9807, f1=0.9699, support=2904; I-ASP: precision=0.9413, recall=0.9606, f1=0.9508, support=1168; O: precision=0.9963, recall=0.9917, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.63(max: 81.3)  APC_test_f1: 73.37(max: 75.02)
+ATE_test_f1: 96.31(max:96.51)
+Emotion_test_acc: 89.17(max: 91.12) Emotion_test_f1: 75.4(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=166, acc=72.81%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=317, acc=91.62%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=717, acc=90.76%
+ATE_per_tag_metrics: B-ASP: precision=0.9609, recall=0.9807, f1=0.9707, support=2904; I-ASP: precision=0.9493, recall=0.9615, f1=0.9553, support=1168; O: precision=0.9962, recall=0.9923, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.13(max: 81.3)  APC_test_f1: 73.98(max: 75.02)
+ATE_test_f1: 96.3(max:96.51)
+Emotion_test_acc: 83.84(max: 91.12) Emotion_test_f1: 69.55(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=135, acc=57.45%; Negative: n=228, correct=166, acc=72.81%; Positive: n=719, correct=658, acc=91.52%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=318, acc=91.91%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=653, acc=82.66%
+ATE_per_tag_metrics: B-ASP: precision=0.9664, recall=0.9807, f1=0.9735, support=2904; I-ASP: precision=0.9374, recall=0.9743, f1=0.9555, support=1168; O: precision=0.9965, recall=0.992, f1=0.9942, support=19387
+********************************************************************************
+################################################################################
+Train 3 Epoch5
+################################################################################
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.05(max: 81.3)  APC_test_f1: 73.83(max: 75.02)
+ATE_test_f1: 95.79(max:96.51)
+Emotion_test_acc: 90.36(max: 91.12) Emotion_test_f1: 78.01(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=123, acc=52.34%; Negative: n=228, correct=182, acc=79.82%; Positive: n=719, correct=653, acc=90.82%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=295, acc=85.26%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=753, acc=95.32%
+ATE_per_tag_metrics: B-ASP: precision=0.9614, recall=0.978, f1=0.9696, support=2904; I-ASP: precision=0.9536, recall=0.9503, f1=0.952, support=1168; O: precision=0.9953, recall=0.993, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.19(max: 81.3)  APC_test_f1: 72.24(max: 75.02)
+ATE_test_f1: 96.54(max:96.54)
+Emotion_test_acc: 89.68(max: 91.12) Emotion_test_f1: 76.13(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=140, acc=59.57%; Negative: n=228, correct=153, acc=67.11%; Positive: n=719, correct=643, acc=89.43%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=309, acc=89.31%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=732, acc=92.66%
+ATE_per_tag_metrics: B-ASP: precision=0.9576, recall=0.9879, f1=0.9725, support=2904; I-ASP: precision=0.943, recall=0.9769, f1=0.9596, support=1168; O: precision=0.9978, recall=0.9909, f1=0.9944, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.12(max: 81.3)  APC_test_f1: 73.76(max: 75.02)
+ATE_test_f1: 96.36(max:96.54)
+Emotion_test_acc: 90.19(max: 91.12) Emotion_test_f1: 76.26(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=137, acc=58.3%; Negative: n=228, correct=178, acc=78.07%; Positive: n=719, correct=632, acc=87.9%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=302, acc=87.28%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=745, acc=94.3%
+ATE_per_tag_metrics: B-ASP: precision=0.9585, recall=0.9866, f1=0.9723, support=2904; I-ASP: precision=0.9471, recall=0.9666, f1=0.9568, support=1168; O: precision=0.9974, recall=0.9917, f1=0.9945, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.63(max: 81.3)  APC_test_f1: 72.67(max: 75.02)
+ATE_test_f1: 96.74(max:96.74)
+Emotion_test_acc: 90.02(max: 91.12) Emotion_test_f1: 76.85(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=146, acc=62.13%; Negative: n=228, correct=133, acc=58.33%; Positive: n=719, correct=674, acc=93.74%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=307, acc=88.73%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=739, acc=93.54%
+ATE_per_tag_metrics: B-ASP: precision=0.9633, recall=0.9852, f1=0.9741, support=2904; I-ASP: precision=0.943, recall=0.9777, f1=0.9601, support=1168; O: precision=0.9976, recall=0.992, f1=0.9947, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.36(max: 81.3)  APC_test_f1: 72.9(max: 75.02)
+ATE_test_f1: 96.35(max:96.74)
+Emotion_test_acc: 87.48(max: 91.12) Emotion_test_f1: 72.29(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=142, acc=60.43%; Negative: n=228, correct=170, acc=74.56%; Positive: n=719, correct=626, acc=87.07%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=318, acc=91.91%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=697, acc=88.23%
+ATE_per_tag_metrics: B-ASP: precision=0.9609, recall=0.9821, f1=0.9714, support=2904; I-ASP: precision=0.9523, recall=0.958, f1=0.9552, support=1168; O: precision=0.9964, recall=0.9928, f1=0.9946, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 81.3)  APC_test_f1: 74.87(max: 75.02)
+ATE_test_f1: 96.56(max:96.74)
+Emotion_test_acc: 89.0(max: 91.12) Emotion_test_f1: 74.13(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=152, acc=64.68%; Negative: n=228, correct=170, acc=74.56%; Positive: n=719, correct=634, acc=88.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=284, acc=82.08%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=749, acc=94.81%
+ATE_per_tag_metrics: B-ASP: precision=0.9668, recall=0.9738, f1=0.9703, support=2904; I-ASP: precision=0.9556, recall=0.9572, f1=0.9564, support=1168; O: precision=0.995, recall=0.9938, f1=0.9944, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.71(max: 81.3)  APC_test_f1: 74.22(max: 75.02)
+ATE_test_f1: 95.72(max:96.74)
+Emotion_test_acc: 87.82(max: 91.12) Emotion_test_f1: 73.63(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=136, acc=57.87%; Negative: n=228, correct=181, acc=79.39%; Positive: n=719, correct=637, acc=88.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=318, acc=91.91%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=700, acc=88.61%
+ATE_per_tag_metrics: B-ASP: precision=0.954, recall=0.9859, f1=0.9697, support=2904; I-ASP: precision=0.943, recall=0.9632, f1=0.953, support=1168; O: precision=0.9974, recall=0.9911, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.29(max: 81.3)  APC_test_f1: 72.81(max: 75.02)
+ATE_test_f1: 96.24(max:96.74)
+Emotion_test_acc: 89.76(max: 91.12) Emotion_test_f1: 75.81(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=158, acc=67.23%; Negative: n=228, correct=128, acc=56.14%; Positive: n=719, correct=663, acc=92.21%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=284, acc=82.08%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=757, acc=95.82%
+ATE_per_tag_metrics: B-ASP: precision=0.9694, recall=0.9694, f1=0.9694, support=2904; I-ASP: precision=0.9556, recall=0.9589, f1=0.9573, support=1168; O: precision=0.9941, recall=0.9939, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.32(max: 82.32)  APC_test_f1: 75.59(max: 75.59)
+ATE_test_f1: 96.44(max:96.74)
+Emotion_test_acc: 90.1(max: 91.12) Emotion_test_f1: 76.77(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=137, acc=58.3%; Negative: n=228, correct=170, acc=74.56%; Positive: n=719, correct=666, acc=92.63%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=287, acc=82.95%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=758, acc=95.95%
+ATE_per_tag_metrics: B-ASP: precision=0.9606, recall=0.9828, f1=0.9716, support=2904; I-ASP: precision=0.9496, recall=0.9683, f1=0.9589, support=1168; O: precision=0.9967, recall=0.9921, f1=0.9944, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.81(max: 82.32)  APC_test_f1: 75.09(max: 75.59)
+ATE_test_f1: 96.23(max:96.74)
+Emotion_test_acc: 89.42(max: 91.12) Emotion_test_f1: 77.32(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=139, acc=59.15%; Negative: n=228, correct=164, acc=71.93%; Positive: n=719, correct=664, acc=92.35%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=320, acc=92.49%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=718, acc=90.89%
+ATE_per_tag_metrics: B-ASP: precision=0.9562, recall=0.9848, f1=0.9703, support=2904; I-ASP: precision=0.948, recall=0.9675, f1=0.9576, support=1168; O: precision=0.9971, recall=0.9914, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 3 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.56(max: 82.32)  APC_test_f1: 75.34(max: 75.59)
+ATE_test_f1: 96.55(max:96.74)
+Emotion_test_acc: 89.09(max: 91.12) Emotion_test_f1: 76.58(max: 78.53)
+APC_per_class_accuracy: Neutral: n=235, correct=140, acc=59.57%; Negative: n=228, correct=187, acc=82.02%; Positive: n=719, correct=637, acc=88.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=317, acc=91.62%; Surprise: n=46, correct=21, acc=45.65%; Joy: n=790, correct=715, acc=90.51%
+ATE_per_tag_metrics: B-ASP: precision=0.9645, recall=0.9821, f1=0.9732, support=2904; I-ASP: precision=0.9515, recall=0.9735, f1=0.9623, support=1168; O: precision=0.9967, recall=0.9926, f1=0.9947, support=19387
+********************************************************************************
+BEST_APC_per_class_accuracy: Neutral: n=235, correct=137, acc=58.3%; Negative: n=228, correct=170, acc=74.56%; Positive: n=719, correct=666, acc=92.63%
+BEST_Emotion_per_class_accuracy: Anger-merged: n=346, correct=312, acc=90.17%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=746, acc=94.43%
+BEST_ATE_per_tag_metrics: B-ASP: precision=0.9633, recall=0.9852, f1=0.9741, support=2904; I-ASP: precision=0.943, recall=0.9777, f1=0.9601, support=1168; O: precision=0.9976, recall=0.992, f1=0.9947, support=19387
+max_ate_test_f1:96.74 max_apc_test_acc: 83.25	max_apc_test_f1: 77.18 	max_emotion_test_acc: 91.12	max_emotion_test_f1: 78.53
+No.4 training process of 5
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+>>> dataset: restaurant
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> use_unique_bert: True
+>>> use_bert_spc: False
+>>> local_context_focus: fusion
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> num_emotion_labels: 3
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> config_path: experiments.json
+>>> device: cpu
+>>> seed: 4
+>>> bert_model: bert-base-uncased
+>>> data_dir: atepc_datasets/restaurant
+***** Running training *****
+  Num examples = 3545
+  Batch size = 16
+  Num steps = 1105
+################################################################################
+Train 4 Epoch1
+################################################################################
+################################################################################
+Train 4 Epoch2
+################################################################################
+################################################################################
+Train 4 Epoch3
+################################################################################
+################################################################################
+Train 4 Epoch4
+################################################################################
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.05(max: 81.05)  APC_test_f1: 74.28(max: 74.28)
+ATE_test_f1: 47.76(max:47.76)
+Emotion_test_acc: 90.27(max: 90.27) Emotion_test_f1: 76.51(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=120, acc=51.06%; Negative: n=228, correct=201, acc=88.16%; Positive: n=719, correct=637, acc=88.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=307, acc=88.73%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=744, acc=94.18%
+ATE_per_tag_metrics: B-ASP: precision=0.9513, recall=0.9821, f1=0.9665, support=2904; I-ASP: precision=0.9545, recall=0.9529, f1=0.9537, support=1168; O: precision=0.9962, recall=0.9912, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.36(max: 81.05)  APC_test_f1: 72.21(max: 74.28)
+ATE_test_f1: 47.97(max:47.97)
+Emotion_test_acc: 88.49(max: 90.27) Emotion_test_f1: 72.09(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=169, acc=71.91%; Negative: n=228, correct=122, acc=53.51%; Positive: n=719, correct=647, acc=89.99%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=285, acc=82.37%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=743, acc=94.05%
+ATE_per_tag_metrics: B-ASP: precision=0.9619, recall=0.9731, f1=0.9675, support=2904; I-ASP: precision=0.9283, recall=0.976, f1=0.9516, support=1168; O: precision=0.9961, recall=0.991, f1=0.9935, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.13(max: 81.13)  APC_test_f1: 74.66(max: 74.66)
+ATE_test_f1: 48.04(max:48.04)
+Emotion_test_acc: 90.52(max: 90.52) Emotion_test_f1: 76.24(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=133, acc=56.6%; Negative: n=228, correct=185, acc=81.14%; Positive: n=719, correct=641, acc=89.15%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=753, acc=95.32%
+ATE_per_tag_metrics: B-ASP: precision=0.9509, recall=0.9876, f1=0.9689, support=2904; I-ASP: precision=0.9434, recall=0.9709, f1=0.957, support=1168; O: precision=0.9976, recall=0.9898, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.3(max: 81.3)  APC_test_f1: 73.83(max: 74.66)
+ATE_test_f1: 48.24(max:48.24)
+Emotion_test_acc: 89.76(max: 90.52) Emotion_test_f1: 75.42(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=136, acc=57.87%; Negative: n=228, correct=146, acc=64.04%; Positive: n=719, correct=679, acc=94.44%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=306, acc=88.44%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=736, acc=93.16%
+ATE_per_tag_metrics: B-ASP: precision=0.9653, recall=0.9766, f1=0.9709, support=2904; I-ASP: precision=0.9475, recall=0.9726, f1=0.9599, support=1168; O: precision=0.9959, recall=0.9923, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.05(max: 81.3)  APC_test_f1: 73.91(max: 74.66)
+ATE_test_f1: 47.94(max:48.24)
+Emotion_test_acc: 88.66(max: 90.52) Emotion_test_f1: 72.74(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=142, acc=60.43%; Negative: n=228, correct=149, acc=65.35%; Positive: n=719, correct=667, acc=92.77%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=299, acc=86.42%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=730, acc=92.41%
+ATE_per_tag_metrics: B-ASP: precision=0.957, recall=0.9811, f1=0.9689, support=2904; I-ASP: precision=0.9594, recall=0.9503, f1=0.9548, support=1168; O: precision=0.9959, recall=0.9924, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.3(max: 81.3)  APC_test_f1: 73.42(max: 74.66)
+ATE_test_f1: 48.1(max:48.24)
+Emotion_test_acc: 86.89(max: 90.52) Emotion_test_f1: 72.27(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=114, acc=48.51%; Negative: n=228, correct=171, acc=75.0%; Positive: n=719, correct=676, acc=94.02%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=252, acc=72.83%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=756, acc=95.7%
+ATE_per_tag_metrics: B-ASP: precision=0.9609, recall=0.9804, f1=0.9705, support=2904; I-ASP: precision=0.9449, recall=0.9692, f1=0.9569, support=1168; O: precision=0.9962, recall=0.9914, f1=0.9938, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 81.3)  APC_test_f1: 74.54(max: 74.66)
+ATE_test_f1: 47.87(max:48.24)
+Emotion_test_acc: 90.02(max: 90.52) Emotion_test_f1: 76.15(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=141, acc=60.0%; Negative: n=228, correct=169, acc=74.12%; Positive: n=719, correct=646, acc=89.85%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=297, acc=85.84%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=747, acc=94.56%
+ATE_per_tag_metrics: B-ASP: precision=0.945, recall=0.9879, f1=0.966, support=2904; I-ASP: precision=0.9381, recall=0.9726, f1=0.955, support=1168; O: precision=0.9977, recall=0.9884, f1=0.9931, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.37(max: 81.3)  APC_test_f1: 74.06(max: 74.66)
+ATE_test_f1: 48.05(max:48.24)
+Emotion_test_acc: 87.14(max: 90.52) Emotion_test_f1: 70.85(max: 76.51)
+APC_per_class_accuracy: Neutral: n=235, correct=153, acc=65.11%; Negative: n=228, correct=157, acc=68.86%; Positive: n=719, correct=640, acc=89.01%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=259, acc=74.86%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=752, acc=95.19%
+ATE_per_tag_metrics: B-ASP: precision=0.9592, recall=0.9797, f1=0.9693, support=2904; I-ASP: precision=0.9456, recall=0.9675, f1=0.9564, support=1168; O: precision=0.9964, recall=0.9915, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.71(max: 81.3)  APC_test_f1: 74.0(max: 74.66)
+ATE_test_f1: 48.05(max:48.24)
+Emotion_test_acc: 90.44(max: 90.52) Emotion_test_f1: 79.09(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=141, acc=60.0%; Negative: n=228, correct=164, acc=71.93%; Positive: n=719, correct=649, acc=90.26%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=308, acc=89.02%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=741, acc=93.8%
+ATE_per_tag_metrics: B-ASP: precision=0.9567, recall=0.9821, f1=0.9692, support=2904; I-ASP: precision=0.9534, recall=0.9623, f1=0.9578, support=1168; O: precision=0.9965, recall=0.9917, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.05(max: 81.3)  APC_test_f1: 73.67(max: 74.66)
+ATE_test_f1: 47.93(max:48.24)
+Emotion_test_acc: 89.0(max: 90.52) Emotion_test_f1: 74.68(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=124, acc=52.77%; Negative: n=228, correct=168, acc=73.68%; Positive: n=719, correct=666, acc=92.63%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=299, acc=86.42%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=733, acc=92.78%
+ATE_per_tag_metrics: B-ASP: precision=0.9618, recall=0.9793, f1=0.9705, support=2904; I-ASP: precision=0.9575, recall=0.9461, f1=0.9518, support=1168; O: precision=0.9953, recall=0.993, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.47(max: 81.47)  APC_test_f1: 75.8(max: 75.8)
+ATE_test_f1: 95.85(max:95.85)
+Emotion_test_acc: 87.82(max: 90.52) Emotion_test_f1: 74.41(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=155, acc=65.96%; Negative: n=228, correct=177, acc=77.63%; Positive: n=719, correct=631, acc=87.76%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=311, acc=89.88%; Surprise: n=46, correct=21, acc=45.65%; Joy: n=790, correct=706, acc=89.37%
+ATE_per_tag_metrics: B-ASP: precision=0.9541, recall=0.98, f1=0.9669, support=2904; I-ASP: precision=0.9451, recall=0.9589, f1=0.952, support=1168; O: precision=0.9962, recall=0.9912, f1=0.9937, support=19387
+********************************************************************************
+################################################################################
+Train 4 Epoch5
+################################################################################
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 82.06)  APC_test_f1: 75.49(max: 75.8)
+ATE_test_f1: 48.08(max:95.85)
+Emotion_test_acc: 89.34(max: 90.52) Emotion_test_f1: 74.22(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=186, acc=81.58%; Positive: n=719, correct=653, acc=90.82%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=299, acc=86.42%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=737, acc=93.29%
+ATE_per_tag_metrics: B-ASP: precision=0.9579, recall=0.9787, f1=0.9681, support=2904; I-ASP: precision=0.9442, recall=0.9709, f1=0.9574, support=1168; O: precision=0.9962, recall=0.991, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.39(max: 82.06)  APC_test_f1: 74.22(max: 75.8)
+ATE_test_f1: 48.11(max:95.85)
+Emotion_test_acc: 89.09(max: 90.52) Emotion_test_f1: 74.55(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=126, acc=53.62%; Negative: n=228, correct=166, acc=72.81%; Positive: n=719, correct=670, acc=93.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=289, acc=83.53%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=745, acc=94.3%
+ATE_per_tag_metrics: B-ASP: precision=0.9585, recall=0.979, f1=0.9687, support=2904; I-ASP: precision=0.9613, recall=0.9572, f1=0.9592, support=1168; O: precision=0.9958, recall=0.9926, f1=0.9942, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 82.06)  APC_test_f1: 74.45(max: 75.8)
+ATE_test_f1: 48.05(max:95.85)
+Emotion_test_acc: 89.76(max: 90.52) Emotion_test_f1: 76.13(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=118, acc=50.21%; Negative: n=228, correct=172, acc=75.44%; Positive: n=719, correct=680, acc=94.58%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=302, acc=87.28%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=740, acc=93.67%
+ATE_per_tag_metrics: B-ASP: precision=0.9537, recall=0.9848, f1=0.969, support=2904; I-ASP: precision=0.9495, recall=0.9666, f1=0.958, support=1168; O: precision=0.997, recall=0.9908, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.39(max: 82.06)  APC_test_f1: 74.15(max: 75.8)
+ATE_test_f1: 48.2(max:95.85)
+Emotion_test_acc: 89.17(max: 90.52) Emotion_test_f1: 74.69(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=165, acc=70.21%; Negative: n=228, correct=135, acc=59.21%; Positive: n=719, correct=662, acc=92.07%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=308, acc=89.02%; Surprise: n=46, correct=17, acc=36.96%; Joy: n=790, correct=729, acc=92.28%
+ATE_per_tag_metrics: B-ASP: precision=0.9589, recall=0.9807, f1=0.9697, support=2904; I-ASP: precision=0.9459, recall=0.9735, f1=0.9595, support=1168; O: precision=0.9967, recall=0.9913, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.15(max: 82.15)  APC_test_f1: 75.53(max: 75.8)
+ATE_test_f1: 48.14(max:95.85)
+Emotion_test_acc: 87.56(max: 90.52) Emotion_test_f1: 71.97(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=154, acc=65.53%; Negative: n=228, correct=155, acc=67.98%; Positive: n=719, correct=662, acc=92.07%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=311, acc=89.88%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=704, acc=89.11%
+ATE_per_tag_metrics: B-ASP: precision=0.9633, recall=0.9749, f1=0.969, support=2904; I-ASP: precision=0.9637, recall=0.9546, f1=0.9591, support=1168; O: precision=0.9948, recall=0.9933, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.22(max: 82.15)  APC_test_f1: 73.71(max: 75.8)
+ATE_test_f1: 48.02(max:95.85)
+Emotion_test_acc: 87.39(max: 90.52) Emotion_test_f1: 71.67(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=125, acc=53.19%; Negative: n=228, correct=154, acc=67.54%; Positive: n=719, correct=681, acc=94.71%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=278, acc=80.35%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=735, acc=93.04%
+ATE_per_tag_metrics: B-ASP: precision=0.9592, recall=0.9807, f1=0.9699, support=2904; I-ASP: precision=0.9554, recall=0.9546, f1=0.955, support=1168; O: precision=0.9959, recall=0.9924, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.73(max: 82.15)  APC_test_f1: 75.89(max: 75.89)
+ATE_test_f1: 95.92(max:95.92)
+Emotion_test_acc: 87.56(max: 90.52) Emotion_test_f1: 73.41(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=148, acc=62.98%; Negative: n=228, correct=181, acc=79.39%; Positive: n=719, correct=637, acc=88.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=306, acc=88.44%; Surprise: n=46, correct=21, acc=45.65%; Joy: n=790, correct=708, acc=89.62%
+ATE_per_tag_metrics: B-ASP: precision=0.9483, recall=0.9852, f1=0.9664, support=2904; I-ASP: precision=0.9411, recall=0.9709, f1=0.9558, support=1168; O: precision=0.9974, recall=0.9897, f1=0.9935, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.64(max: 82.15)  APC_test_f1: 75.16(max: 75.89)
+ATE_test_f1: 32.09(max:95.92)
+Emotion_test_acc: 90.02(max: 90.52) Emotion_test_f1: 76.92(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=148, acc=62.98%; Negative: n=228, correct=157, acc=68.86%; Positive: n=719, correct=660, acc=91.79%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=290, acc=83.82%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=754, acc=95.44%
+ATE_per_tag_metrics: B-ASP: precision=0.9611, recall=0.9783, f1=0.9696, support=2904; I-ASP: precision=0.9412, recall=0.9726, f1=0.9566, support=1168; O: precision=0.9964, recall=0.9913, f1=0.9938, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.32(max: 82.32)  APC_test_f1: 75.86(max: 75.89)
+ATE_test_f1: 48.08(max:95.92)
+Emotion_test_acc: 89.59(max: 90.52) Emotion_test_f1: 75.16(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=143, acc=60.85%; Negative: n=228, correct=164, acc=71.93%; Positive: n=719, correct=666, acc=92.63%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=292, acc=84.39%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=747, acc=94.56%
+ATE_per_tag_metrics: B-ASP: precision=0.9552, recall=0.9835, f1=0.9691, support=2904; I-ASP: precision=0.9454, recall=0.964, f1=0.9546, support=1168; O: precision=0.9969, recall=0.991, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.4(max: 82.4)  APC_test_f1: 75.39(max: 75.89)
+ATE_test_f1: 96.69(max:96.69)
+Emotion_test_acc: 90.27(max: 90.52) Emotion_test_f1: 78.33(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=139, acc=59.15%; Negative: n=228, correct=159, acc=69.74%; Positive: n=719, correct=676, acc=94.02%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=309, acc=89.31%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=739, acc=93.54%
+ATE_per_tag_metrics: B-ASP: precision=0.9599, recall=0.9817, f1=0.9707, support=2904; I-ASP: precision=0.9436, recall=0.9743, f1=0.9587, support=1168; O: precision=0.997, recall=0.9916, f1=0.9943, support=19387
+********************************************************************************
+********************************************************************************
+Train 4 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.71(max: 82.4)  APC_test_f1: 74.4(max: 75.89)
+ATE_test_f1: 96.42(max:96.69)
+Emotion_test_acc: 88.49(max: 90.52) Emotion_test_f1: 75.61(max: 79.09)
+APC_per_class_accuracy: Neutral: n=235, correct=126, acc=53.62%; Negative: n=228, correct=200, acc=87.72%; Positive: n=719, correct=628, acc=87.34%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=322, acc=93.06%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=704, acc=89.11%
+ATE_per_tag_metrics: B-ASP: precision=0.9638, recall=0.98, f1=0.9718, support=2904; I-ASP: precision=0.9526, recall=0.9632, f1=0.9579, support=1168; O: precision=0.9961, recall=0.9929, f1=0.9945, support=19387
+********************************************************************************
+BEST_APC_per_class_accuracy: Neutral: n=235, correct=139, acc=59.15%; Negative: n=228, correct=159, acc=69.74%; Positive: n=719, correct=676, acc=94.02%
+BEST_Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=16, acc=34.78%; Joy: n=790, correct=753, acc=95.32%
+BEST_ATE_per_tag_metrics: B-ASP: precision=0.9599, recall=0.9817, f1=0.9707, support=2904; I-ASP: precision=0.9436, recall=0.9743, f1=0.9587, support=1168; O: precision=0.997, recall=0.9916, f1=0.9943, support=19387
+max_ate_test_f1:96.74 max_apc_test_acc: 83.25	max_apc_test_f1: 77.18 	max_emotion_test_acc: 91.12	max_emotion_test_f1: 79.09
+No.5 training process of 5
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/bert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+>>> dataset: restaurant
+>>> output_dir: output
+>>> SRD: 5
+>>> learning_rate: 3e-05
+>>> use_unique_bert: True
+>>> use_bert_spc: False
+>>> local_context_focus: fusion
+>>> num_train_epochs: 5.0
+>>> train_batch_size: 16
+>>> dropout: 0.0
+>>> num_emotion_labels: 3
+>>> max_seq_length: 80
+>>> eval_batch_size: 32
+>>> eval_steps: 20
+>>> gradient_accumulation_steps: 1
+>>> config_path: experiments.json
+>>> device: cpu
+>>> seed: 5
+>>> bert_model: bert-base-uncased
+>>> data_dir: atepc_datasets/restaurant
+***** Running training *****
+  Num examples = 3545
+  Batch size = 16
+  Num steps = 1105
+################################################################################
+Train 5 Epoch1
+################################################################################
+################################################################################
+Train 5 Epoch2
+################################################################################
+################################################################################
+Train 5 Epoch3
+################################################################################
+################################################################################
+Train 5 Epoch4
+################################################################################
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 77.16(max: 77.16)  APC_test_f1: 70.45(max: 70.45)
+ATE_test_f1: 47.59(max:47.59)
+Emotion_test_acc: 89.26(max: 89.26) Emotion_test_f1: 73.84(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=114, acc=48.51%; Negative: n=228, correct=203, acc=89.04%; Positive: n=719, correct=595, acc=82.75%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=313, acc=90.46%; Surprise: n=46, correct=14, acc=30.43%; Joy: n=790, correct=728, acc=92.15%
+ATE_per_tag_metrics: B-ASP: precision=0.943, recall=0.9804, f1=0.9613, support=2904; I-ASP: precision=0.9457, recall=0.9546, f1=0.9501, support=1168; O: precision=0.9961, recall=0.9894, f1=0.9927, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.19(max: 79.19)  APC_test_f1: 71.85(max: 71.85)
+ATE_test_f1: 47.79(max:47.79)
+Emotion_test_acc: 87.99(max: 89.26) Emotion_test_f1: 70.27(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=137, acc=58.3%; Negative: n=228, correct=143, acc=62.72%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=284, acc=82.08%; Surprise: n=46, correct=15, acc=32.61%; Joy: n=790, correct=741, acc=93.8%
+ATE_per_tag_metrics: B-ASP: precision=0.9571, recall=0.9759, f1=0.9664, support=2904; I-ASP: precision=0.9426, recall=0.9555, f1=0.949, support=1168; O: precision=0.9952, recall=0.9912, f1=0.9932, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 79.36(max: 79.36)  APC_test_f1: 72.78(max: 72.78)
+ATE_test_f1: 47.94(max:47.94)
+Emotion_test_acc: 89.85(max: 89.85) Emotion_test_f1: 73.42(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=138, acc=58.72%; Negative: n=228, correct=166, acc=72.81%; Positive: n=719, correct=634, acc=88.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=303, acc=87.57%; Surprise: n=46, correct=13, acc=28.26%; Joy: n=790, correct=746, acc=94.43%
+ATE_per_tag_metrics: B-ASP: precision=0.9609, recall=0.9728, f1=0.9668, support=2904; I-ASP: precision=0.9394, recall=0.9683, f1=0.9536, support=1168; O: precision=0.9953, recall=0.9914, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.29(max: 80.29)  APC_test_f1: 72.39(max: 72.78)
+ATE_test_f1: 47.88(max:47.94)
+Emotion_test_acc: 89.0(max: 89.85) Emotion_test_f1: 73.37(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=135, acc=57.45%; Negative: n=228, correct=133, acc=58.33%; Positive: n=719, correct=681, acc=94.71%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=296, acc=85.55%; Surprise: n=46, correct=15, acc=32.61%; Joy: n=790, correct=741, acc=93.8%
+ATE_per_tag_metrics: B-ASP: precision=0.9461, recall=0.9845, f1=0.9649, support=2904; I-ASP: precision=0.9488, recall=0.9675, f1=0.958, support=1168; O: precision=0.9971, recall=0.9896, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.29(max: 80.29)  APC_test_f1: 74.12(max: 74.12)
+ATE_test_f1: 47.89(max:47.94)
+Emotion_test_acc: 89.51(max: 89.85) Emotion_test_f1: 73.0(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=159, acc=67.66%; Negative: n=228, correct=153, acc=67.11%; Positive: n=719, correct=637, acc=88.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=303, acc=87.57%; Surprise: n=46, correct=13, acc=28.26%; Joy: n=790, correct=742, acc=93.92%
+ATE_per_tag_metrics: B-ASP: precision=0.9571, recall=0.9752, f1=0.9661, support=2904; I-ASP: precision=0.9542, recall=0.9632, f1=0.9587, support=1168; O: precision=0.9954, recall=0.9918, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.47(max: 81.47)  APC_test_f1: 75.23(max: 75.23)
+ATE_test_f1: 48.07(max:48.07)
+Emotion_test_acc: 88.58(max: 89.85) Emotion_test_f1: 72.13(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=145, acc=61.7%; Negative: n=228, correct=172, acc=75.44%; Positive: n=719, correct=646, acc=89.85%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=280, acc=80.92%; Surprise: n=46, correct=17, acc=36.96%; Joy: n=790, correct=750, acc=94.94%
+ATE_per_tag_metrics: B-ASP: precision=0.959, recall=0.9752, f1=0.967, support=2904; I-ASP: precision=0.936, recall=0.976, f1=0.9556, support=1168; O: precision=0.9963, recall=0.9909, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.8(max: 81.47)  APC_test_f1: 73.67(max: 75.23)
+ATE_test_f1: 95.39(max:95.39)
+Emotion_test_acc: 88.41(max: 89.85) Emotion_test_f1: 73.38(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=123, acc=52.34%; Negative: n=228, correct=182, acc=79.82%; Positive: n=719, correct=650, acc=90.4%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=305, acc=88.15%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=721, acc=91.27%
+ATE_per_tag_metrics: B-ASP: precision=0.9379, recall=0.9828, f1=0.9598, support=2904; I-ASP: precision=0.9434, recall=0.97, f1=0.9565, support=1168; O: precision=0.9972, recall=0.9884, f1=0.9928, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.98(max: 81.98)  APC_test_f1: 75.1(max: 75.23)
+ATE_test_f1: 47.98(max:95.39)
+Emotion_test_acc: 85.7(max: 89.85) Emotion_test_f1: 68.18(max: 73.84)
+APC_per_class_accuracy: Neutral: n=235, correct=147, acc=62.55%; Negative: n=228, correct=150, acc=65.79%; Positive: n=719, correct=672, acc=93.46%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=273, acc=78.9%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=720, acc=91.14%
+ATE_per_tag_metrics: B-ASP: precision=0.9616, recall=0.9735, f1=0.9675, support=2904; I-ASP: precision=0.938, recall=0.9709, f1=0.9541, support=1168; O: precision=0.9958, recall=0.9916, f1=0.9937, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 82.06)  APC_test_f1: 75.78(max: 75.78)
+ATE_test_f1: 47.99(max:95.39)
+Emotion_test_acc: 90.78(max: 90.78) Emotion_test_f1: 78.34(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=142, acc=60.43%; Negative: n=228, correct=174, acc=76.32%; Positive: n=719, correct=654, acc=90.96%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=311, acc=89.88%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=744, acc=94.18%
+ATE_per_tag_metrics: B-ASP: precision=0.9563, recall=0.979, f1=0.9675, support=2904; I-ASP: precision=0.9503, recall=0.9658, f1=0.958, support=1168; O: precision=0.9963, recall=0.9915, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.56(max: 82.06)  APC_test_f1: 74.78(max: 75.78)
+ATE_test_f1: 47.89(max:95.39)
+Emotion_test_acc: 90.36(max: 90.78) Emotion_test_f1: 76.67(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=128, acc=54.47%; Negative: n=228, correct=175, acc=76.75%; Positive: n=719, correct=661, acc=91.93%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=304, acc=87.86%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=746, acc=94.43%
+ATE_per_tag_metrics: B-ASP: precision=0.9575, recall=0.9773, f1=0.9673, support=2904; I-ASP: precision=0.9564, recall=0.9572, f1=0.9568, support=1168; O: precision=0.9957, recall=0.9923, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch4, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.88(max: 82.06)  APC_test_f1: 74.68(max: 75.78)
+ATE_test_f1: 95.73(max:95.73)
+Emotion_test_acc: 83.42(max: 90.78) Emotion_test_f1: 69.66(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=136, acc=57.87%; Negative: n=228, correct=186, acc=81.58%; Positive: n=719, correct=634, acc=88.18%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=332, acc=95.95%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=634, acc=80.25%
+ATE_per_tag_metrics: B-ASP: precision=0.955, recall=0.9797, f1=0.9672, support=2904; I-ASP: precision=0.9473, recall=0.9692, f1=0.9581, support=1168; O: precision=0.9966, recall=0.9913, f1=0.9939, support=19387
+********************************************************************************
+################################################################################
+Train 5 Epoch5
+################################################################################
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.71(max: 82.06)  APC_test_f1: 73.59(max: 75.78)
+ATE_test_f1: 95.67(max:95.73)
+Emotion_test_acc: 88.66(max: 90.78) Emotion_test_f1: 75.67(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=118, acc=50.21%; Negative: n=228, correct=191, acc=83.77%; Positive: n=719, correct=645, acc=89.71%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=274, acc=79.19%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=755, acc=95.57%
+ATE_per_tag_metrics: B-ASP: precision=0.9593, recall=0.9731, f1=0.9662, support=2904; I-ASP: precision=0.9573, recall=0.9598, f1=0.9585, support=1168; O: precision=0.995, recall=0.9927, f1=0.9938, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.29(max: 82.06)  APC_test_f1: 73.81(max: 75.78)
+ATE_test_f1: 96.21(max:96.21)
+Emotion_test_acc: 90.02(max: 90.78) Emotion_test_f1: 76.56(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=157, acc=66.81%; Negative: n=228, correct=139, acc=60.96%; Positive: n=719, correct=653, acc=90.82%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=298, acc=86.13%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=747, acc=94.56%
+ATE_per_tag_metrics: B-ASP: precision=0.9529, recall=0.9824, f1=0.9674, support=2904; I-ASP: precision=0.9358, recall=0.9735, f1=0.9543, support=1168; O: precision=0.9971, recall=0.9901, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.22(max: 82.06)  APC_test_f1: 73.74(max: 75.78)
+ATE_test_f1: 47.91(max:96.21)
+Emotion_test_acc: 89.93(max: 90.78) Emotion_test_f1: 76.14(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=108, acc=45.96%; Negative: n=228, correct=197, acc=86.4%; Positive: n=719, correct=655, acc=91.1%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=301, acc=86.99%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=743, acc=94.05%
+ATE_per_tag_metrics: B-ASP: precision=0.9566, recall=0.979, f1=0.9677, support=2904; I-ASP: precision=0.9449, recall=0.9546, f1=0.9497, support=1168; O: precision=0.9958, recall=0.9914, f1=0.9936, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.3(max: 82.06)  APC_test_f1: 73.8(max: 75.78)
+ATE_test_f1: 48.03(max:96.21)
+Emotion_test_acc: 88.75(max: 90.78) Emotion_test_f1: 74.06(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=154, acc=65.53%; Negative: n=228, correct=134, acc=58.77%; Positive: n=719, correct=673, acc=93.6%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=307, acc=88.73%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=723, acc=91.52%
+ATE_per_tag_metrics: B-ASP: precision=0.9547, recall=0.9787, f1=0.9665, support=2904; I-ASP: precision=0.9418, recall=0.9692, f1=0.9553, support=1168; O: precision=0.9967, recall=0.9909, f1=0.9938, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 81.56(max: 82.06)  APC_test_f1: 75.83(max: 75.83)
+ATE_test_f1: 47.83(max:96.21)
+Emotion_test_acc: 88.58(max: 90.78) Emotion_test_f1: 73.85(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=156, acc=66.38%; Negative: n=228, correct=168, acc=73.68%; Positive: n=719, correct=640, acc=89.01%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=303, acc=87.57%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=725, acc=91.77%
+ATE_per_tag_metrics: B-ASP: precision=0.9669, recall=0.9652, f1=0.9661, support=2904; I-ASP: precision=0.957, recall=0.9521, f1=0.9545, support=1168; O: precision=0.9933, recall=0.9936, f1=0.9935, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.23(max: 82.23)  APC_test_f1: 76.09(max: 76.09)
+ATE_test_f1: 47.99(max:96.21)
+Emotion_test_acc: 88.58(max: 90.78) Emotion_test_f1: 74.19(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=151, acc=64.26%; Negative: n=228, correct=165, acc=72.37%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=285, acc=82.37%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=743, acc=94.05%
+ATE_per_tag_metrics: B-ASP: precision=0.9498, recall=0.9835, f1=0.9663, support=2904; I-ASP: precision=0.9375, recall=0.976, f1=0.9564, support=1168; O: precision=0.9975, recall=0.9894, f1=0.9934, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 82.23)  APC_test_f1: 75.11(max: 76.09)
+ATE_test_f1: 96.23(max:96.23)
+Emotion_test_acc: 88.07(max: 90.78) Emotion_test_f1: 72.42(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=175, acc=76.75%; Positive: n=719, correct=664, acc=92.35%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=293, acc=84.68%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=729, acc=92.28%
+ATE_per_tag_metrics: B-ASP: precision=0.957, recall=0.98, f1=0.9684, support=2904; I-ASP: precision=0.9404, recall=0.9735, f1=0.9567, support=1168; O: precision=0.9968, recall=0.9911, f1=0.9939, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.06(max: 82.23)  APC_test_f1: 75.34(max: 76.09)
+ATE_test_f1: 96.25(max:96.25)
+Emotion_test_acc: 88.58(max: 90.78) Emotion_test_f1: 72.84(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=162, acc=68.94%; Negative: n=228, correct=139, acc=60.96%; Positive: n=719, correct=669, acc=93.05%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=273, acc=78.9%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=756, acc=95.7%
+ATE_per_tag_metrics: B-ASP: precision=0.9639, recall=0.9752, f1=0.9695, support=2904; I-ASP: precision=0.9449, recall=0.9692, f1=0.9569, support=1168; O: precision=0.9958, recall=0.9925, f1=0.9941, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 82.32(max: 82.32)  APC_test_f1: 75.96(max: 76.09)
+ATE_test_f1: 94.88(max:96.25)
+Emotion_test_acc: 89.85(max: 90.78) Emotion_test_f1: 77.69(max: 78.34)
+APC_per_class_accuracy: Neutral: n=235, correct=141, acc=60.0%; Negative: n=228, correct=176, acc=77.19%; Positive: n=719, correct=656, acc=91.24%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=293, acc=84.68%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=749, acc=94.81%
+ATE_per_tag_metrics: B-ASP: precision=0.9341, recall=0.9866, f1=0.9596, support=2904; I-ASP: precision=0.9365, recall=0.9598, f1=0.948, support=1168; O: precision=0.9976, recall=0.9877, f1=0.9926, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 83.08(max: 83.08)  APC_test_f1: 76.24(max: 76.24)
+ATE_test_f1: 96.11(max:96.25)
+Emotion_test_acc: 90.52(max: 90.78) Emotion_test_f1: 78.59(max: 78.59)
+APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=165, acc=72.37%; Positive: n=719, correct=686, acc=95.41%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=314, acc=90.75%; Surprise: n=46, correct=19, acc=41.3%; Joy: n=790, correct=737, acc=93.29%
+ATE_per_tag_metrics: B-ASP: precision=0.9658, recall=0.9711, f1=0.9684, support=2904; I-ASP: precision=0.9373, recall=0.9726, f1=0.9546, support=1168; O: precision=0.9955, recall=0.9924, f1=0.994, support=19387
+********************************************************************************
+********************************************************************************
+Train 5 Epoch5, Evaluate for atepc_datasets/restaurant
+APC_test_acc: 80.12(max: 83.08)  APC_test_f1: 74.29(max: 76.24)
+ATE_test_f1: 96.07(max:96.25)
+Emotion_test_acc: 85.11(max: 90.78) Emotion_test_f1: 70.13(max: 78.59)
+APC_per_class_accuracy: Neutral: n=235, correct=139, acc=59.15%; Negative: n=228, correct=194, acc=85.09%; Positive: n=719, correct=614, acc=85.4%
+Emotion_per_class_accuracy: Anger-merged: n=346, correct=328, acc=94.8%; Surprise: n=46, correct=20, acc=43.48%; Joy: n=790, correct=658, acc=83.29%
+ATE_per_tag_metrics: B-ASP: precision=0.9595, recall=0.979, f1=0.9691, support=2904; I-ASP: precision=0.9523, recall=0.958, f1=0.9552, support=1168; O: precision=0.9958, recall=0.9924, f1=0.9941, support=19387
+********************************************************************************
+BEST_APC_per_class_accuracy: Neutral: n=235, correct=131, acc=55.74%; Negative: n=228, correct=165, acc=72.37%; Positive: n=719, correct=686, acc=95.41%
+BEST_Emotion_per_class_accuracy: Anger-merged: n=346, correct=311, acc=89.88%; Surprise: n=46, correct=18, acc=39.13%; Joy: n=790, correct=744, acc=94.18%
+BEST_ATE_per_tag_metrics: B-ASP: precision=0.9639, recall=0.9752, f1=0.9695, support=2904; I-ASP: precision=0.9449, recall=0.9692, f1=0.9569, support=1168; O: precision=0.9958, recall=0.9925, f1=0.9941, support=19387
+max_ate_test_f1:96.74 max_apc_test_acc: 83.25	max_apc_test_f1: 77.18 	max_emotion_test_acc: 91.12	max_emotion_test_f1: 79.09
